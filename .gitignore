@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment
+.env
+.env.development
+.env.test
+.env.production
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
