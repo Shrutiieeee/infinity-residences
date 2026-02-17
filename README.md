@@ -27,8 +27,5 @@ A premium Full Stack Real Estate Website with a cinematic UI and a dedicated Adm
    npm run dev
    ```
 
-## 🌐 Deployment
-For step-by-step instructions on deploying the live portal, please refer to [DEPLOYMENT.md](./DEPLOYMENT.md).
-
 ---
 © 2026 Infinity Residences Limited
