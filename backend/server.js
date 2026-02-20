@@ -47,6 +47,10 @@ const seedDatabase = async () => {
 };
 
 // Routes
+app.get('/', (req, res) => {
+    res.send('Infinity Residences API is running...');
+});
+
 app.post('/login', (req, res) => {
     const { email, password } = req.body;
     if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {

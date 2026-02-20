@@ -69,14 +69,20 @@ const Home = () => {
                         </p>
                         <div className="flex gap-4">
                             {[
-                                { icon: Facebook, label: 'FB' },
-                                { icon: Twitter, label: 'TW' },
-                                { icon: Instagram, label: 'IG' },
-                                { icon: Linkedin, label: 'LI' }
+                                { icon: Facebook, label: 'FB', url: '#' },
+                                { icon: Twitter, label: 'TW', url: '#' },
+                                { icon: Instagram, label: 'IG', url: 'https://www.instagram.com/blxy.artzy/' },
+                                { icon: Linkedin, label: 'LI', url: 'https://www.linkedin.com/in/shrutikakhandale-4b8210291/' }
                             ].map((s, i) => (
-                                <div key={i} className="w-10 h-10 flex items-center justify-center border border-white/10 text-white/60 hover:border-accent hover:text-accent transition duration-500 cursor-pointer rounded-full group">
+                                <a
+                                    key={i}
+                                    href={s.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-10 h-10 flex items-center justify-center border border-white/10 text-white/60 hover:border-accent hover:text-accent transition duration-500 cursor-pointer rounded-full group"
+                                >
                                     <s.icon size={16} strokeWidth={1.5} className="group-hover:scale-110 transition-transform" />
-                                </div>
+                                </a>
                             ))}
                         </div>
                     </div>
