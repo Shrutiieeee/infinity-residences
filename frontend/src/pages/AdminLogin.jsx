@@ -82,6 +82,15 @@ const AdminLogin = () => {
                             Authenticate
                         </button>
                     </form>
+
+                    {/* Test Credentials Helper */}
+                    <div className="mt-8 p-4 bg-slate-50 border border-slate-100 rounded-sm">
+                        <h4 className="text-[10px] uppercase font-bold tracking-[0.2em] text-slate-400 mb-2 text-center">Test Credentials</h4>
+                        <div className="flex flex-col space-y-1 text-center">
+                            <p className="text-xs text-primary/60"><span className="font-bold">Email:</span> admin@gmail.com</p>
+                            <p className="text-xs text-primary/60"><span className="font-bold">Pass:</span> 1234</p>
+                        </div>
+                    </div>
                     <div className="mt-10 text-center">
                         <a href="/" className="text-slate-400 hover:text-primary text-xs uppercase tracking-widest transition">Back to Main Site</a>
                     </div>
